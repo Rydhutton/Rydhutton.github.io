@@ -1,420 +1,497 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+
+    <title>Ryan Hutton</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <!--<link href="css/scrolling-nav.css" rel="stylesheet">-->
     
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    
-    <title>Ryan Hutton</title>
+
 </head>
 
-<body>
-    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     Menu <i class="fa fa-bars"></i>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href='https://privateemail.com/appsuite/'>Webmail</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+            
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#courses">Courses</a>
+                    </li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href='/'>Home</a>
-                    </li>
-                    <li>
-                        <a href='/about/'>About</a>
-                    </li>
-                    <li>
-                        <a href='/blog/'>Blog</a>
-                    </li>
-                    <li>
-                        <a href='/contact/'>Contact</a>
+                        <a class="navbar-brand" href='https://privateemail.com/appsuite/'>Webmail</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="intro-header" style="background-image: url('imgs/snowysunrise.jpg')">
-        <div class="container">
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section" style="background-image: url('imgs/snowysunrise.jpg')">
+        <header class="intro-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="site-heading">
+                            <h1>Ryan Hutton</h1>
+                            <hr class="small">
+                            <span class="subheading">A Personal About Me Website</span>
+                            <br>
+                            <a href="#about" class="btn btn-circle page-scroll">
+                                <i class="fa fa-angle-double-down animated"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="jumbotron"> 
+            <div class="container text-center">
+                <h1>A Little About Me</h1>      
+                <p>Graduated with an Engineering B.Sc. from the University of Victoria, 2017</p>
+                <p>Born and raised Vancouver Islander currently residing in Victoria.</p>
+                <p>Fluent in both English and French</p>
+                <!--<p>Métis people</p>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container-fluid bg-3 text-center">
+            <h2>Experience Using:</h2>
+            <br>
+            <br>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>Ryan Hutton</h1>
-                        <hr class="small">
-                        <span class="subheading">A Personal About Me Website</span>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-1">
+                    <img src="imgs/java-logo.png" class="img-responsive" align="middle">
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
+                    <img src="imgs/c++-logo.png" class="img-responsive" align="middle">
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
+                    <img src="imgs/python-logo.png" class="img-responsive" align="middle">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-1">
+                    <div class="row">
+                        <img src="imgs/django-logo.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
+                    <div class="row">
+                        <img src="imgs/htmlcssjs-logo.png" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-2">
+                    <div class="row">
+                        <img src="imgs/mysql-logo.jpg" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-2 col-sm-offset-1">
+                    <div class="row">
+                        <img src="imgs/git-logo.png" class="img-responsive">
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <div class="jumbotron"> 
-        <div class="container text-center">
-            <h1>A Little About Me</h1>      
-            <p>Engineering B.Sc. from University of Victoria, 2017</p>
-        </div>
-    </div>
-      
-    <div class="container-fluid bg-3 text-center">    
-        <h1>Course Credits:</h1>
-        <br>
-        <div class="row">
-            <div class="col-sm-4"> 
-                <h3>Mathematics</h3>
-                <br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	MATH100:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Calculus I
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	MATH101:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Calculus II
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	MATH122:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Logic and Foundations
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	MATH201:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Introduction to Differential Equations
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	MATH211:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Matrix Algebra
-					</div>
-				</div>
-				<br>
-				<br>
-				<h3>Philosophy</h3>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	PHIL201:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Critical Thinking
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	PHIL203:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Elementary Formal Logic
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	PHIL370:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Theoretical Logic
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
-					   	PHIL375:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Philosophy of Mathematics
-					</div>
-				</div>
-			</div>
-            <div class="col-sm-4">
-            	<h3>Computer Science</h3>
-            	<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC106:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    The Practice of Computer Science
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC110:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Fundamentals of Programming I
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC115:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Fundamentals of Programming II
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC167:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Game Strategy, Interaction and Design
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC225:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Algorithms and Data Structures I
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC226:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Algorithms and Data Structures II
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC230:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Introduction to Computer Architecture
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC320:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Foundations of Computer Science
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC322:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Logic and Programming
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC330:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Programming Languages
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC355:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Digital Logic and Computer Organization
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC360:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Operating Systems
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC370:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Database Systems
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC421:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Artificial Intelligence
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CSC475:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Music Retrieval Techniques
-					</div>
-				</div>
-            </div>
-            <div class="col-sm-4"> 
-                <h3>Miscellanous</h3>
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+        <div class="jumbotron">
+            <div class="container-fluid bg-3 text-center">    
+                <h1>Course Credits:</h1>
                 <br>
                 <div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CHEM101:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Fundamentals of Chemistry I
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	CHEM102:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Fundamentals of Chemistry II
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	ECON103:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Principles of Microeconomics
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	ENGL135:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Academic Reading and Writing
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	ENGL225:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Technical Communications: Written and Verbal
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	EOS170:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Natural Hazards
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	HINF140:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Introduction to the Canadian Health Care Systems
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	MUS111:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Elementary Materials of Music
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	SOCI100A:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Introduction to Sociology: Culture and Socialization
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	STAT255:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    Statistics for Life Sciences I
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	TS320:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    History of Videogames
-					</div>
-				</div>
-				<br>
-				<div class="row">
-  					<div class="col-sm-4 col-lg-3" style="text-align: left">
-					   	WRIT109:
-					</div>
-					<div class="col-sm-7 col-lg-8" style="text-align: left">
-					    The Writers's World in Books and Film
-					</div>
-				</div>
+                    <div class="col-sm-4"> 
+                        <h3>Mathematics</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                <a href="http://web.uvic.ca/calendar2016-09/CDs/MATH/100.html">MATH100:</a>
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Calculus I
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                MATH101:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Calculus II
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                MATH122:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Logic and Foundations
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                MATH201:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Introduction to Differential Equations
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                MATH211:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Matrix Algebra
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <h3>Philosophy</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                PHIL201:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Critical Thinking
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                PHIL203:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Elementary Formal Logic
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                PHIL370:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Theoretical Logic
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3 col-sm-offset-1" style="text-align: left">
+                                PHIL375:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Philosophy of Mathematics
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Computer Science</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC106:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                The Practice of Computer Science
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC110:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Fundamentals of Programming I
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC115:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Fundamentals of Programming II
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC167:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Game Strategy, Interaction and Design
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC225:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Algorithms and Data Structures I
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC226:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Algorithms and Data Structures II
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC230:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Introduction to Computer Architecture
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC320:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Foundations of Computer Science
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC322:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Logic and Programming
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC330:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Programming Languages
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC355:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Digital Logic and Computer Organization
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC360:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Operating Systems
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC370:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Database Systems
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC421:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Artificial Intelligence
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CSC475:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Music Retrieval Techniques
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4"> 
+                        <h3>Miscellanous</h3>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CHEM101:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Fundamentals of Chemistry I
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                CHEM102:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Fundamentals of Chemistry II
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                ECON103:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Principles of Microeconomics
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                ENGL135:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Academic Reading and Writing
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                ENGL225:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Technical Communications: Written and Verbal
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                EOS170:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Natural Hazards
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                HINF140:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Introduction to the Canadian Health Care Systems
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                MUS111:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Elementary Materials of Music
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                SOCI100A:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Introduction to Sociology: Culture and Socialization
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                STAT255:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                Statistics for Life Sciences I
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                TS320:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                History of Videogames
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-3" style="text-align: left">
+                                WRIT109:
+                            </div>
+                            <div class="col-sm-7 col-lg-8" style="text-align: left">
+                                The Writers's World in Books and Film
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div><br>
+    </section>
+    
 
-    <hr>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -451,14 +528,13 @@
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="js/jquery.js"></script>
-
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <script src="js/custom.js"></script>
 
 </body>
+
 </html>
