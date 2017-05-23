@@ -441,6 +441,11 @@ body {
     background: #eee;
 }
 
+.contact-section {
+  min-height: 100%
+  background: white;
+}
+
 
 
 
