@@ -429,6 +429,11 @@ body {
     background: #000080;
 }
 
+.widgets-section {
+  min-height: 100%
+  background: #fff;
+}
+
 .skills-section {
     min-height: 100%;
     text-align: center;
